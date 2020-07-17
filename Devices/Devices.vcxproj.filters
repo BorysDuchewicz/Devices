@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{0eb3d87c-2c7c-4c4b-a3f2-38b556d1956a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{5d2901dd-c18d-4ce9-9364-16dc4f5bc102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Libs">
+      <UniqueIdentifier>{a79edc36-ee66-4c38-9215-2c9f70f577c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Readers">
+      <UniqueIdentifier>{bb8859b6-f179-4c9d-84aa-7d697bf72fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structs">
+      <UniqueIdentifier>{e1038bcd-939f-4d67-9b66-8a9e46b7be64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes with collections">
+      <UniqueIdentifier>{65ed3d92-fab0-4103-9e44-96e5233482cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes with collections">
+      <UniqueIdentifier>{a2e874df-4ee6-44e5-814a-f9adc100b479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Readers">
+      <UniqueIdentifier>{3677c8ef-2d24-4075-be8a-603a8effa94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Validators">
+      <UniqueIdentifier>{b72c9d47-0488-4721-a150-3aa0f2c517fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Validators">
+      <UniqueIdentifier>{4bc7582b-6bd3-4580-8acb-9ce6529977a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="app_exception.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="device_utils.cpp">
+      <Filter>Source Files\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="electrical_devices_utils.cpp">
+      <Filter>Source Files\Classes with collections</Filter>
+    </ClCompile>
+    <ClCompile Include="electrical_devices_validator.cpp">
+      <Filter>Source Files\Validators</Filter>
+    </ClCompile>
+    <ClCompile Include="device_validator.cpp">
+      <Filter>Source Files\Validators</Filter>
+    </ClCompile>
+    <ClCompile Include="electrical_device_utils.cpp">
+      <Filter>Source Files\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="devices_utils.cpp">
+      <Filter>Source Files\Classes with collections</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app_exception.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs.h">
+      <Filter>Header Files\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="device_utils.h">
+      <Filter>Header Files\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="electrical_device_utils.h">
+      <Filter>Header Files\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="device.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="electric_device.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="devices_utils.h">
+      <Filter>Header Files\Classes with collections</Filter>
+    </ClInclude>
+    <ClInclude Include="electrical_devices_utils.h">
+      <Filter>Header Files\Classes with collections</Filter>
+    </ClInclude>
+    <ClInclude Include="validator.h">
+      <Filter>Header Files\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="device_validator.h">
+      <Filter>Header Files\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="electrical_devices_validator.h">
+      <Filter>Header Files\Validators</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

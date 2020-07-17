@@ -1,0 +1,16 @@
+﻿  device_utils.cpp
+G:\KMProgramowanie\CPP\Git\Devices\Devices\device_validator.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  device_validator.cpp
+G:\KMProgramowanie\CPP\Git\Devices\Devices\device_validator.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+G:\KMProgramowanie\CPP\Git\Devices\Devices\device_validator.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  electrical_devices_utils.cpp
+  electrical_devices_validator.cpp
+G:\KMProgramowanie\CPP\Git\Devices\Devices\device_validator.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+G:\KMProgramowanie\CPP\Git\Devices\Devices\device_validator.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  electrical_device_utils.cpp
+G:\KMProgramowanie\CPP\Git\Devices\Devices\device_validator.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+G:\KMProgramowanie\CPP\Git\Devices\Devices\device_validator.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  main.cpp
+  Generating Code...
+G:\KMProgramowanie\CPP\Git\Devices\Devices\device_validator.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Devices.vcxproj -> G:\KMProgramowanie\CPP\Git\Devices\x64\Debug\Devices.exe

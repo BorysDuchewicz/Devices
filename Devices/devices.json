@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Kamera",
+    "price": 1200,
+    "work_hours": 500,
+    "category": "A",
+    "power": 100,
+    "active_time": 0.5 
+  },
+  {
+    "name": "Samochod",
+    "price": 1200,
+    "work_hours": 500,
+    "category": "B",
+    "power": 100,
+    "active_time": 0.5
+
+  },
+  {
+    "name": "Zmywarka",
+    "price": 1200,
+    "work_hours": 5000,
+    "category": "C",
+    "power": 100,
+    "active_time": 0.5
+
+  }
+]
